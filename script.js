@@ -10,7 +10,7 @@ function draw() {
   noStroke();
   let chosenColor = random(niceColors);
   fill(chosenColor);
-  let size = random(2000, 80);
+  let size = random(200, 80);
   circle(mouseX, mouseY, size);
 }
 
